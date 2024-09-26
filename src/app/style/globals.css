@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+table {
+  justify-content: space-between;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+body {
+  font-family: "Whisper", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.telacentralizada {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+}
+
+.botao {
+  padding: 4px;
+  background-color: #7450f8;
+  border-radius: 2px;
+  font-size: 12px;
+}
+
+.titulo {
+  font-size: 18px;
+}
+
+.textoespecial {
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.whisper-regular {
+  font-family: "Whisper", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#tableclientes {
+  width: 80%;
+}/*# sourceMappingURL=globals.css.map */
