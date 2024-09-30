@@ -3,9 +3,9 @@ import ModalCadastro from "@/components/Modal";
 export default function PaginaPrincipal() {
     return (
         <>
-            <button type="button" id="cadastrarCliente" className="botao">Cadastrar clientes</button>
+            <button type="button" id="cadastrarCliente" className="button blue 0mobile">Cadastrar clientes</button>
             <table id="tableclientes">
-                <thead>
+                <thead id="tableClient">
                     <tr>
                         <th>Nome</th>
                         <th>Gmail</th>

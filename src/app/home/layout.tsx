@@ -5,7 +5,7 @@ export default function Layout({
   }>) {
     return (
       <>
-        <h1>Cadastro de clientes</h1>
+        <h1 className="header-title">Cadastro de clientes</h1>
         <main>
             {children}
         </main>
